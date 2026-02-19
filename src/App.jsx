@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import FIRSTPIC from "./assets/FIRSTPIC.jpeg";
-import SecondImg from "./assets/SecondImg.jpeg";
+// import SecondImg from "./assets/SecondImg.jpeg";
 import three from "./assets/three.jpeg";
 import four from "./assets/four.jpeg";
 import five from "./assets/five.jpeg";
@@ -99,7 +99,7 @@ export default function AnniversaryPage() {
   const [isOpen, setIsOpen] = useState(false);
   const [opened, setOpened] = useState(false);
 
-  const memories = [FIRSTPIC, SecondImg,three,four,five,six];
+  const memories = [FIRSTPIC,three,four,five,six];
 
 
   const PASSWORD = "websketchs";
